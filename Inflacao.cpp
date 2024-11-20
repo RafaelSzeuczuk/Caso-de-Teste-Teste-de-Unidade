@@ -10,7 +10,7 @@ float ajustarInflacao(double valorInicial, double taxaInflacao, int anos) {
 
 void teste() {
     assert(ajustarInflacao(1500, 0, 10) == 1500);
-    assert(ajustarInflacao(2000, 1, 2) == 8000); // Corrigi a taxa de inflação para 0.07 e o valor esperado
+    assert(ajustarInflacao(2000, 1, 2) == 8000); 
     assert(ajustarInflacao(100000, 0, 15) == 100000);
 }
 
